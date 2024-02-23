@@ -1,4 +1,6 @@
-FROM python:3.10-slim-buster
+
+# FROM python:3.10-slim-buster
+FROM 532048035650.dkr.ecr.us-east-1.amazonaws.com/gk-demo:latest
 
 WORKDIR /src
 
